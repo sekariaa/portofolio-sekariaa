@@ -7,7 +7,7 @@
     >
       <div class="sticky">
         <div class="flex items-start">
-          <img src="../../photo.png" alt="" srcset="" class="w-40 mx-auto" />
+          <img :src="profile.photo" alt="" srcset="" class="w-40 mx-auto" />
           <button @click="toggleSidebar" class="text-blue-primary md:hidden right-0">
             <v-icon name="ri-close-fill" scale="1.25" />
           </button>

@@ -1,6 +1,7 @@
 export const data = [
   {
     name: 'Sekar Ria Amanda',
+    photo:'../../public/photo.png',
     cv: 'https://drive.google.com/drive/folders/18oB6yo6AmRaJZb6XW7llq27AZ5apqrxp?usp=sharing',
     github: 'https://github.com/sekariaa',
     linkedin: 'https://www.linkedin.com/in/sekar-ria-443643211',
