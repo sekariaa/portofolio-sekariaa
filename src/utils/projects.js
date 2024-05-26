@@ -12,6 +12,16 @@ export const projectsData = [
   },
   {
     key: 'Individual Project',
+    title: 'Quiz Website',
+    thumb: '../../public/quiz.png',
+    periode: 'May 2024',
+    tags: ['Next.js', 'TypeScript', 'Firebase', 'Context'],
+    desc: 'Website that allowed users to answer quiz, implement auth, show top 5 leaderboard.',
+    documentation: 'https://sekariaa.notion.site/Quiz-b37cdc740d36477fb210ac185daa8d99',
+    website: 'https://quiz-app-e5a9c.web.app/'
+  },
+  {
+    key: 'Individual Project',
     title: 'GoCooking',
     thumb: '../../gocooking.png',
     periode: 'Jan 2024 - Feb 2024',

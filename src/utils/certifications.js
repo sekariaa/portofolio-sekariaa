@@ -30,7 +30,7 @@ export const certicicationData = [
     end: 'Nov 2023',
     thumb: '../../dicoding-logo.webp',
     certificate: 'https://drive.google.com/drive/u/0/folders/1QxzHTnmVnRfZYUcItcDafpb0PYMmzUPG',
-    tags: ['React.js', 'Redux', 'SPA', 'Uni Testing', 'CI/CD']
+    tags: ['React.js', 'Redux', 'SPA', 'Unit Testing', 'CI/CD']
   },
   {
     type: 'Certification',

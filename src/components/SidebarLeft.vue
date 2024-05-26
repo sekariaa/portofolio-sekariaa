@@ -26,7 +26,7 @@
             class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1"
           >
             <v-icon name="co-github" scale="1.25" />
-            <a class="pl-1" :href="profile.github" target="_blank">github.com/sekaria</a>
+            <a class="pl-1" :href="profile.github" target="_blank">github.com/sekariaa</a>
           </div>
           <div
             class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1"
