@@ -4,7 +4,9 @@
       <template v-slot:default="{ isHovering, props }">
         <v-card v-bind="props" :color="isHovering ? blue : undefined" v-if="!loading">
           <v-card-text>
-            <p class="text-subtitle-2">{{ internship.start }} - {{ internship.end }}</p>
+            <p class="text-subtitle-2 text-lg-subtitle-1">
+              {{ internship.start }} - {{ internship.end }}
+            </p>
             <p class="text-h6">{{ internship.title }}</p>
             <div class="space-x-1 py-1">
               <v-chip
@@ -37,7 +39,7 @@
               style="bottom: 0"
             >
               <v-card-text class="pb-0">
-                <p class="text-justify text-body-2">{{ internship.desc }}</p>
+                <p class="text-justify text-body-2 text-lg-body-1">{{ internship.desc }}</p>
               </v-card-text>
 
               <v-card-actions class="pt-0">

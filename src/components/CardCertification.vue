@@ -9,7 +9,9 @@
                 <v-img :src="certification.thumb"></v-img>
               </v-avatar>
               <div>
-                <p class="text-subtitle-2">{{ certification.start }} - {{ certification.end }}</p>
+                <p class="text-subtitle-2 text-lg-subtitle-1">
+                  {{ certification.start }} - {{ certification.end }}
+                </p>
                 <p class="text-h6 text-justify text-truncate" style="max-width: 200px">
                   {{ certification.title }}
                 </p>
@@ -59,7 +61,7 @@
               style="bottom: 0"
             >
               <v-card-text class="pb-0">
-                <p class="text-justify text-body-2">{{ certification.desc }}</p>
+                <p class="text-justify text-body-2 text-lg-body-1">{{ certification.desc }}</p>
               </v-card-text>
 
               <v-card-actions class="pt-0">

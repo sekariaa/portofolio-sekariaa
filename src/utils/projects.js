@@ -13,7 +13,7 @@ export const projectsData = [
   {
     key: 'Individual Project',
     title: 'Quiz Website',
-    thumb: '../../public/quiz.png',
+    thumb: '../..//quiz.png',
     periode: 'May 2024',
     tags: ['Next.js', 'TypeScript', 'Firebase', 'Context'],
     desc: 'Website that allowed users to answer quiz, implement auth, show top 5 leaderboard.',

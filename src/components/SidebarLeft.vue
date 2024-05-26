@@ -7,38 +7,42 @@
     >
       <div class="sticky">
         <div class="flex items-start">
-          <img :src="profile.photo" alt="" srcset="" class="w-40 mx-auto" />
+          <img :src="profile.photo" alt="" srcset="" class="w-40 mx-auto xl:w-56" />
           <button @click="toggleSidebar" class="text-blue-primary md:hidden right-0">
             <v-icon name="ri-close-fill" scale="1.25" />
           </button>
         </div>
         <h1 class="text-center font-semibold text-2xl">{{ profile.name }}</h1>
-        <h2 class="text-center text-gray-500 mt-0">Website Developer</h2>
-        <p class="text-justify text-sm">{{ profile.aboutMe }}</p>
+        <h2 class="text-center text-gray-500 mt-0 xl:text-xl">Website Developer</h2>
+        <p class="text-justify text-sm xl:text-lg">{{ profile.aboutMe }}</p>
         <div class="flex flex-col text-sm">
           <div
-            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1"
+            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1 xl:w-60"
           >
             <v-icon name="fa-file" scale="1.25" />
-            <a class="pl-1" :href="profile.cv" target="_blank">Curriculum Vitae </a>
+            <a class="pl-1 xl:text-lg" :href="profile.cv" target="_blank">Curriculum Vitae </a>
           </div>
           <div
-            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1"
+            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1 xl:w-60"
           >
             <v-icon name="co-github" scale="1.25" />
-            <a class="pl-1" :href="profile.github" target="_blank">github.com/sekariaa</a>
+            <a class="pl-1 xl:text-lg" :href="profile.github" target="_blank"
+              >github.com/sekariaa</a
+            >
           </div>
           <div
-            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1"
+            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1 xl:w-60"
           >
             <v-icon name="bi-linkedin" scale="1.25" />
-            <a class="pl-1" :href="profile.linkedin" target="_blank">Sekar Ria</a>
+            <a class="pl-1 xl:text-lg" :href="profile.linkedin" target="_blank">Sekar Ria</a>
           </div>
           <div
-            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1"
+            class="flex items-center text-sm text-blue-primary hover:text-brown-primary hover:bg-blue-primary hover:rounded-full w-48 px-2 py-1 xl:w-60"
           >
             <v-icon name="md-email" scale="1.25" />
-            <a class="pl-1" :href="'mailto:' + profile.email" target="_blank">sekariaa@gmail.com</a>
+            <a class="pl-1 xl:text-lg" :href="'mailto:' + profile.email" target="_blank"
+              >sekariaa@gmail.com</a
+            >
           </div>
         </div>
       </div>
@@ -60,7 +64,7 @@
           <router-link :to="{ path: '/' }">
             <button
               :class="{ 'bg-blue-primary text-brown-primary': isRouteActive('/') }"
-              class="rounded-full px-2 py-1 outline outline-2 outline-blue-primary text-blue-primary text-xs"
+              class="rounded-full px-2 py-1 outline outline-2 outline-blue-primary text-blue-primary text-xs xl:text-lg"
             >
               Projects
             </button>
@@ -68,7 +72,7 @@
           <router-link :to="{ path: '/experiences' }">
             <button
               :class="{ 'bg-blue-primary text-brown-primary': isRouteActive('/experiences') }"
-              class="rounded-full px-2 py-1 outline outline-2 outline-blue-primary text-blue-primary text-xs"
+              class="rounded-full px-2 py-1 outline outline-2 outline-blue-primary text-blue-primary text-xs xl:text-lg"
             >
               Experiences
             </button>

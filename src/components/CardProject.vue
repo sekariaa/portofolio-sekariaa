@@ -10,7 +10,7 @@
       >
         <v-img width="550px" v-if="projects.thumb" :src="projects.thumb" cover></v-img>
         <div class="px-3 mt-1">
-          <p class="text-subtitle-2">{{ projects.periode }}</p>
+          <p class="text-subtitle-2 text-lg-subtitle-1">{{ projects.periode }}</p>
           <p class="text-h6 text-justify text-truncate" style="max-width: 260px">
             {{ projects.title }}
           </p>
