@@ -1,5 +1,5 @@
 <template>
-  <h1 class="px-3 font-semibold text-2xl">Internship</h1>
+  <h1 class="px-3 font-semibold text-2xl">Working Experiences</h1>
   <CardInternship
     v-for="(intern, index) in internship"
     :key="index"

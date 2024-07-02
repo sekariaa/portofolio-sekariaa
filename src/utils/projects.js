@@ -1,5 +1,15 @@
 export const projectsData = [
   {
+    key: 'Freelance Project',
+    title: 'Rekap Pembaris',
+    thumb: '../../rekap-pembaris.png',
+    periode: 'Jun 2024 - Jul 2024',
+    tags: ['Next.js', 'Firebase', 'XLSX', 'EsLint'],
+    desc: 'System that can import and export excel data for ranking needs in LKBB',
+    documentation: 'https://sekariaa.notion.site/Rekap-Pembaris-7deda556306c43f981808b2447e3ada2',
+    website: 'https://rekap-pembaris.vercel.app'
+  },
+  {
     key: 'Collaborative Project',
     title: 'Warehouse Management',
     thumb: '../../wms.png',
@@ -8,7 +18,7 @@ export const projectsData = [
     desc: 'Making Warehouse Management System for Manifacturing Industry',
     documentation:
       'https://sekariaa.notion.site/Warehouse-Management-System-cf04bd2d939b44169f753d3505271f08',
-    website: 'https://drive.google.com/drive/folders/14EQttdy5I65pfCgm7MIlHiq3DiaQua2M?usp=sharing'
+    website: 'https://wms-gaptech.vercel.app'
   },
   {
     key: 'Individual Project',
