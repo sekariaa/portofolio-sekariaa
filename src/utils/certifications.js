@@ -7,7 +7,7 @@ export const certicicationData = [
     start: 'Feb 2024',
     end: 'Jun 2024',
     thumb: '../../stechoq-logo.png',
-    certificate: '',
+    certificate: 'https://drive.google.com/drive/u/1/folders/1OTSWxENMtx4Ky5j5gKirRdVElNohGVJa',
     tags: [
       'MongoDB',
       'SQL',
