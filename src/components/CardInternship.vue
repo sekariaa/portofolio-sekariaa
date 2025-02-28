@@ -28,7 +28,7 @@
             >
             </v-btn
             ><a :href="internship.web" target="_blank" rel="noopener noreferrer">
-              <v-btn :color="!isHovering ? blue : brown" text="Website" variant="text"> </v-btn>
+              <v-btn :color="!isHovering ? blue : brown" text="More" variant="text"> </v-btn>
             </a>
           </v-card-actions>
           <v-expand-transition>
