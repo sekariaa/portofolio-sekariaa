@@ -1,6 +1,51 @@
 export const projectsData = [
+    {
+    key: 'Internship Project',
+    type: 'uiux',
+    title: 'Reservation Meeting Room',
+    thumb: '../../meeting.png',
+    periode: 'Dec 2025 - Jan 2026',
+    tags: ['Figma'],
+    desc: 'Meeting room system to streamline reservation and dashboard.',
+    documentation: 'https://delicate-ballcap-681.notion.site/Reservation-Meeting-Room-2e50f2ba483e80e88f8ef832e0a26193',
+    website: 'https://www.figma.com/design/QE8Jz7rG6pkjj7VMZQbk4u/Meeting-Room?node-id=2007-11055&t=wle9w6Fxf9PwS02p-1'
+  },
+  {
+    key: 'Internship Project',
+    type: 'uiux',
+    title: 'Human Capital Information System',
+    thumb: '../../hrm.png',
+    periode: 'Apr 2025 - Oct 2025',
+    tags: ['Figma'],
+    desc: 'Designing employee transfer and personal data modules within the HRM system',
+    documentation: 'https://delicate-ballcap-681.notion.site/Human-Capital-Information-System-2e50f2ba483e80ed81befc18de3e945d?pvs=73',
+    website: 'https://www.figma.com/design/XmgUO4kjj9GWojQkUWgY4c/PELNI-Pengawakan--Copy-?node-id=4-3&t=KhoNHb5JlWqywZM1-1'
+  },
+  {
+    key: 'Internship Project',
+    type: 'uiux',
+    title: 'Sistem Pesangon Pensiun dan Resign',
+    thumb: '../../sepasi.png',
+    periode: 'Jul 2025 - Aug 2025',
+    tags: ['Figma'],
+    desc: 'SEPASI is an electronic system designed to manage severance pay.',
+    documentation: 'https://delicate-ballcap-681.notion.site/Sistem-Elektronik-Pesangon-dan-Resign-2e50f2ba483e809ba223c24f6c427bab?pvs=73',
+    website: 'https://www.figma.com/design/JNOKD5i3uQj97iigYtKF1A/SEPASI--Copy-?node-id=2-195&t=M5HBSCi3gWAVUFwN-1'
+  },
+  {
+    key: 'Internship Project',
+    type: 'uiux',
+    title: 'Perintis Cargo System',
+    thumb: '../../pecasy.png',
+    periode: 'Aug 2024 - Dec 2024',
+    tags: ['Figma', 'Prototype','SUS', 'SEQ'],
+    desc: 'Design and prototype for a Perintis ship cargo delivery application.',
+    documentation: 'https://drive.google.com/file/d/13OegBQ7IXWCiL5AbUYf3qSOl9raeET3t/view?usp=sharing',
+    website: 'https://www.figma.com/design/b1o99yeH9T5zIjqtAiGcZ9/PECASY---Design--Copy-?node-id=994-48067&t=Oif34YyxdzBsEo0j-1'
+  },
   {
     key: 'Freelance Project',
+    type: 'dev',
     title: 'Rekap Pembaris',
     thumb: '../../rekap-pembaris.png',
     periode: 'Jun 2024 - Jul 2024',
@@ -11,6 +56,7 @@ export const projectsData = [
   },
   {
     key: 'Collaborative Project',
+    type: 'dev',
     title: 'Warehouse Management',
     thumb: '../../wms.png',
     periode: 'Apr 2024 - Jun 2024',
@@ -22,6 +68,7 @@ export const projectsData = [
   },
   {
     key: 'Individual Project',
+    type: 'dev',
     title: 'Quiz Website',
     thumb: '../..//quiz.png',
     periode: 'May 2024',
@@ -32,6 +79,7 @@ export const projectsData = [
   },
   {
     key: 'Individual Project',
+    type: 'dev',
     title: 'GoCooking',
     thumb: '../../gocooking.png',
     periode: 'Jan 2024 - Feb 2024',
@@ -43,6 +91,7 @@ export const projectsData = [
   },
   {
     key: 'Individual Project',
+    type: 'dev',
     title: 'Forum App',
     thumb: '../../forum-app.png',
     periode: 'Nov 2023',
@@ -53,6 +102,7 @@ export const projectsData = [
   },
   {
     key: 'Individual Project',
+    type: 'dev',
     title: 'Bookshelf Website',
     thumb: '../../bookshelf.png',
     periode: 'Sep 2023',
@@ -63,6 +113,7 @@ export const projectsData = [
   },
   {
     key: 'Community Service',
+    type: 'dev',
     title: 'Selorejo Website',
     thumb: '../../selorejo.png',
     periode: 'Jul 2023',
@@ -74,6 +125,7 @@ export const projectsData = [
   },
   {
     key: 'Collaborative Project',
+    type: 'dev',
     title: 'Administration Letter',
     thumb: '../../proyek-pw.png',
     periode: 'May 2023',
@@ -84,6 +136,7 @@ export const projectsData = [
   },
   {
     key: 'Individual Project',
+    type: 'dev',
     title: 'Journal Website',
     thumb: '../../redesign-web.png',
     periode: 'Dec 2022',

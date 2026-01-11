@@ -13,7 +13,7 @@
           </button>
         </div>
         <h1 class="text-center font-semibold text-2xl">{{ profile.name }}</h1>
-        <h2 class="text-center text-gray-500 mt-0 xl:text-xl">Website Developer</h2>
+        <h2 class="text-center text-gray-500 mt-0 xl:text-xl">Analyst Information System</h2>
         <p class="text-justify text-sm xl:text-lg">{{ profile.aboutMe }}</p>
         <div class="flex flex-col text-sm">
           <div

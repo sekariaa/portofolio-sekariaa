@@ -7,7 +7,7 @@ export const certicicationData = [
     start: 'Feb 2024',
     end: 'Jun 2024',
     thumb: '../../stechoq-logo.png',
-    certificate: 'https://drive.google.com/drive/u/1/folders/1OTSWxENMtx4Ky5j5gKirRdVElNohGVJa',
+    certificate: 'https://drive.google.com/file/d/1vj3XZMXplwsJFpMwFnN30jkFVaUBuOBE/view?usp=sharing',
     tags: [
       'MongoDB',
       'SQL',
@@ -29,7 +29,7 @@ export const certicicationData = [
     start: 'Okt 2023',
     end: 'Nov 2023',
     thumb: '../../dicoding-logo.webp',
-    certificate: 'https://drive.google.com/drive/u/0/folders/1QxzHTnmVnRfZYUcItcDafpb0PYMmzUPG',
+    certificate: 'hhttps://drive.google.com/file/d/1FJZGbgnLjkoQjLrnvjb7Q5om9Urqp-7G/view?usp=sharing',
     tags: [
       'React.js',
       'ESLint',
@@ -49,7 +49,7 @@ export const certicicationData = [
     start: 'Aug 2023',
     end: 'Sep 2023',
     thumb: '../../dicoding-logo.webp',
-    certificate: 'https://drive.google.com/drive/folders/1RePmc5sC_NVnAx3O4JZimT5QHZqZ4vbk',
+    certificate: 'https://drive.google.com/file/d/1J08WfvifxsByBsUyng1i26EPV7yN6UwD/view?usp=drive_link',
     tags: ['HTML', 'CSS', 'JavaScript']
   }
 ]

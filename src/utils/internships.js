@@ -1,8 +1,25 @@
 export const internshipData = [
+    {
+    type: 'internship',
+    title: 'Technical Writer PT Kereta Api Indonesia (Persero)',
+    desc: 'Contributed to the implementation of strategic internal systems at KAI by supporting system analysis and technical documentation for multiple platforms, including employee super apps, sustainability portals, cargo transport systems, and laboratory measurement systems. Actively involved in user requirement analysis, business process modeling, database design, and system documentation, while collaborating closely with developers and UI/UX designers to ensure clear requirements, accurate documentation, and alignment between business needs and technical implementation.',
+    start: 'Oct 2025',
+    end: 'Apr 2026',
+    tags: 'Confluence, BRD, SDD, TDD, User Manual, Jira, Navicat',
+    web: ''
+  },  {
+    type: 'internship',
+    title: 'System Analyst Human Capital Information System PT Pelayaran Nasional Indonesia (Persero)',
+    desc: 'Served as a System Analyst in the enhancement of a Human Capital Information System (HCIS), focusing on requirement analysis, business process design, and user interface definition for personnel administration and employee transfer modules. Actively contributed to the preparation of Business Requirement and Functional Design Documents, supported system integration through organizational data mapping, and handled IT HR incidents by performing analysis, coordination, and escalation. Additionally, supported organizational readiness for face recognition–based attendance systems by monitoring employee data compliance to ensure smooth implementation.',
+    start: 'Apr 2025',
+    end: 'Oct 2025',
+    tags: 'Oracle, Figma, BRD, FDD, UAT',
+    web: ''
+  },
   {
     type: 'internship',
-    title: 'Internship Technical Writer PT PELNI (Persero)',
-    desc: 'Responsible for IT planning processes, including gathering user requirements, designing business process flows, and producing Functional Design Documents leading up to User Acceptance Testing, while also designing UI/UX for a ship cargo reservation application using a User-Centered Design approach, Figma for prototyping, and SEQ & SUS for UI/UX evaluation to streamline the development process.',
+    title: 'IT Development PT Pelayaran Nasional Indonesia (Persero)',
+    desc: 'Responsible for IT planning processes, including gathering user requirements, designing business process flows, and producing Functional Design Documents, leading up to User Acceptance Testing, while also designing UI/UX for a ship cargo reservation application using a User-Centered Design approach, Figma for prototyping, and SEQ & SUS for UI/UX evaluation to streamline the development process.',
     start: 'Sep 2024',
     end: 'Dec 2024',
     tags: 'Figma, FDD, UAT',
@@ -19,7 +36,7 @@ export const internshipData = [
   },
   {
     type: 'internship',
-    title: 'Internship Web with Blogger',
+    title: 'Web Developer with Blogger',
     desc: 'I once interned at a printing business called SAKA DIGIPRO, Malang City. During my internship, I contributed to a team to build a website with bloggers. My job at that time was to create and present the layout of the website which would be developed further.',
     start: 'Feb 2023',
     end: 'May 2023',

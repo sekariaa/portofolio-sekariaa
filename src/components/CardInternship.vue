@@ -26,9 +26,14 @@
               variant="text"
               @click="reveal = true"
             >
-            </v-btn
-            ><a :href="internship.web" target="_blank" rel="noopener noreferrer">
-              <v-btn :color="!isHovering ? blue : brown" text="More" variant="text"> </v-btn>
+            </v-btn>
+            <a
+              v-if="internship.web"
+              :href="internship.web"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <v-btn :color="!isHovering ? blue : brown" text="More" variant="text" />
             </a>
           </v-card-actions>
           <v-expand-transition>

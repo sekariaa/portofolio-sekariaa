@@ -7,6 +7,6 @@ export const data = [
     linkedin: 'https://www.linkedin.com/in/sekar-ria-443643211',
     email: 'sekariaa@gmail.com',
     aboutMe:
-      'I am a student at Information System Brawijaya University. Over the past two years, I have been actively involved in web development through various courses, hands-on projects, and internship. My ultimate goal is to become a proficient website developer.'
+      'Information Systems graduate from Universitas Brawijaya, awarded as Best Graduate (GPA 3.96). Passionate about system analysis, technical documentation, and UI/UX design, with a strong interest in transforming complex requirements into clear, structured, and user-centered digital solutions.'
   }
 ]
